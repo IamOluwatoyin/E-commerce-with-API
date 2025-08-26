@@ -4,19 +4,14 @@
   height: 400px; 
   background-color: white;
    border-radius: 5px;
-   border: 1px solid blueviolet;
    flex-wrap: wrap;
    display: flex;
    justify-content: center;
    align-items: center;
    transform: scale(0.99);
-   box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75) inset;
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
-
 }
 .productlist-container:hover{
-   /* background-color: blueviolet;  */
+   
   transform: scale(1.0);
 }
 .productlistImage-container{
@@ -39,7 +34,7 @@
 }
 .product-button{
   padding: 8px;
-  background-color: blueviolet;
+  background-color: #f36100;
   cursor: pointer;
   transition: all 245ms ease-in-out;
 }

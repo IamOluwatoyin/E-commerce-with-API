@@ -62,6 +62,7 @@ const Hero = () => {
   }
   return (
     <div className='Hero-wrapper'>
+      <h1>Product Display</h1>
     <div className='Hero-container'>
          <p> Filter By Category</p>
     
